@@ -7,4 +7,4 @@ def test_three_days_late():
 assert calculate_late_fee(3) == 30
 
 def test_cap_applies():
-assert calculate_late_fee(100) == 50014:30
+assert calculate_late_fee(100) == 500
